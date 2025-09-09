@@ -147,10 +147,7 @@ const result= useRef(null)
            setGame(false)
            jsConfetti.addConfetti()
       }      
-      if(count==8 && game){
-        result.current.innerHTML="Drawn the Match"
-         setGame(false)
-
+     
            
       if(count==8 && game){
         result.current.innerHTML="Drawn the Match"
@@ -159,7 +156,7 @@ const result= useRef(null)
          setInterval(()=>{  window.location = "/" },6000)
       
       }
-      } 
+      
      
 
   }
