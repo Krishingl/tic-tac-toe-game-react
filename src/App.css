@@ -1,11 +1,17 @@
+
+
+
+
 #main{
     height: 100vh;
      display: flex;
     align-items: center;
     flex-direction: column;
      justify-content: center;
+
     
 }
+
 
 #game{
     display: grid;
@@ -16,7 +22,7 @@
 
 
 .cell{
-        
+    background-color: rgb(160, 158, 248);
      height: 100px;
      width: 100px;
      border:1px solid red;
@@ -50,4 +56,17 @@
     cursor: pointer;
 
 
+}
+
+
+#result{
+    color: red;
+}
+
+#heading{
+    
+
+     background-image: linear-gradient(rgb(245, 126, 126),rgb(23, 188, 111));
+      background-clip: text;
+       color: transparent;
 }
